@@ -41,7 +41,7 @@ After every game, a log file will be created that records:
 
 ## Examples
 
-See the `/runs/` folder for some concrete examples.
+See the `/runs/` folder for some concrete examples. Note that you will need [Inspect](https://inspect.aisi.org.uk/) to view them properly.
 
 ## On scheming
 
