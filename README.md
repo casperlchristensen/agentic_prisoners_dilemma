@@ -47,6 +47,9 @@ See the `/runs/` folder for some concrete examples. Note that you will need [Ins
 
 The term scheming is used rather loosely here. While the agents are not actually scheming in e.g. https://arxiv.org/pdf/2412.04984, the behaviour of telling a participant that you are going to cooperate and then choose the DEFECT action mirrors scheming behaviour. It does show that models will generally send pro-social messages (i.e. encourage cooperation and mutual trust), but still very much try to win the game when instructed to.
 
+## On strategy
+Since the number of rounds is known ahead of time, the best strategy is to ALWAYS defect. The agents sometimes figure that out during play, but often start out cooperating regardless. Seems like there is some propensity for models to be cooperative; probably stemming mainly from the RLHF where the models are tuned to be more helpful. 
+
 ## Example metrics
 
 Classification metrics for the auxiliary model predicting whether a participant would defect or not.
